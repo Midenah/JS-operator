@@ -1,0 +1,20 @@
+.container {
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.container .main {
+  margin-bottom: 5%;
+  gap: 5px;
+}
+.container .main input {
+  background: #f9fcfc;
+}
+.container .main button {
+  background: #f5eaea;
+}
+.container .side input {
+  background: #f5eaea;
+}
+.container .side button {
+  background: #f9fcfc;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,22 @@
+.container{
+    margin-left: 5%;
+    margin-top: 5%;
+    .main{
+        margin-bottom: 5%;
+        gap: 5px;
+        input{
+            background: #f9fcfc;
+        }
+        button{
+            background: #f5eaea;
+        }
+    }
+    .side{
+        input{
+            background:#f5eaea;
+        }
+        button{
+            background: #f9fcfc;
+        }
+    }
+}
