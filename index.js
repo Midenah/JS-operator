@@ -1,21 +1,21 @@
 function output(event ){
     event.preventDefault();
-const vOne = document.getElementById
+let vOne = document.getElementById
 ("vOne").value;
-const vTwo = document.getElementById
+let vTwo = document.getElementById
 ("vTwo").value;
 
-let result = vOne ** vTwo;
+let result = Number(vOne ) ** Number(vTwo);
 console.log(result)
 }
 
 function outpush(event ){
     event.preventDefault();
-const nOne = document.getElementById
+let nOne = document.getElementById
 ("nOne").value;
-const nTwo = document.getElementById
+let nTwo = document.getElementById
 ("nTwo").value;
 
-let outcome = nOne + nTwo;
+let outcome = Number(nOne) + Number(nTwo);
 console.log(outcome)
 }
