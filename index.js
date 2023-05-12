@@ -18,4 +18,4 @@ let nTwo = document.getElementById
 
 let outcome = Number(nOne) + Number(nTwo);
 console.log(outcome)
-}
+};
